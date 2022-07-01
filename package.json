@@ -1,0 +1,13 @@
+{
+    "name": "VChat network server!",
+    "description": "This is a server which enables the live communication across VChat!",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "Server.js",
+    "scripts": {
+        "start": "Server.js"
+    },
+    "keywords": [],
+    "author": "X-jb bj-X",
+    "licence": "MIT"
+}
