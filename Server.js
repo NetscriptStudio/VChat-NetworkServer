@@ -4,6 +4,9 @@ const Express = require("express");
 const { Server } = require("ws");
 
 
+let HOST = location.origin.replace(/^http/, 'ws')
+let ws = new WebSocket(HOST);
+
 let Port = 3000;
 
 let Server_ = Express().use((req, res) => {}).listen(Port => console.log("Listening on port: " + Port));
