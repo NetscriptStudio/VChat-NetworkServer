@@ -9,8 +9,8 @@ let ws = new WebSocket(HOST);
 
 let Port = 3000;
 
-let Server_ = Express().use((req, res) => {}).listen(Port => console.log("Listening on port: " + Port));
-let WebSocketServer = new Server(Server_);
+let Server_ = Express().use((req, res) => {}).listen(Port () => console.log("Listening on port: " + Port));
+let WebSocketServer = new Server({Server_});
 
 
 // Chat variables
